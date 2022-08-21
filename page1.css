@@ -1,0 +1,185 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.btn2 {
+  padding: 5px 15px;
+  margin: 0px;
+  background: #fff;
+  cursor: pointer;
+  color: #1d2b53;
+  border: 1px solid #1d2b53;
+  font-size: 15px;
+  text-align: center;
+}
+
+.btn2:hover{
+  background: #1d2b53;
+  color: #fff;
+}
+
+.btn {
+  width: 100%;
+}
+
+
+.leftbox {
+  float: left;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+
+}
+
+.middlebox {
+  float: left;
+  text-align: center;
+  margin-left: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.rightbox {
+  float: right;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 40px;
+}
+
+h5 {
+  margin-left: 6px;
+  margin-top: 6px;
+  text-align: center;
+}
+
+.img {
+  height: 15px;
+  width: 15px;
+  margin-top: 6px;
+  text-align: center;
+}
+
+.hand {
+  border-radius: 50%;
+  margin-top: 16px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.page1 {
+  border-bottom: 1px solid black;
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+}
+
+.thick {
+  font-weight: bold;
+  color: darkcyan;
+}
+
+
+
+*:focus {
+  outline: none;
+  font-weight: bold;
+  color: darkcyan;
+}
+
+.headphone {
+  margin-top: 5px;
+  margin-right: 8px;
+  align-items: center;
+}
+
+.kitchen {
+  margin-bottom: 3px;
+  margin-top: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.booking {
+  padding-left: 4px;
+  margin: 0px;
+  font-style: bold;
+  align-items: center;
+}
+
+.page2 {
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.col {
+  flex: 1 0 14%; 
+  background: #fff;
+  height: 50px;
+  color: #0c0c0c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.btm {
+  position: fixed;
+  bottom: 0;
+  margin: 0;
+  width: 99%;
+  height: 50px;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 15px 15px ;
+  box-shadow: 15px 15px 15px 15px grey;
+}
+.cart{
+  display: flex;
+  flex-direction: column;
+}
+
+.img2 {
+  height: 15px;
+  width: 15px;
+  margin-top: 6px;
+}
+
+.large{
+  margin: 0px;
+  font-size: 10px;
+}
+
+.large2{
+  margin: 0px;
+  font-size: smaller;
+}
+
+.para{
+  font-size: 12px;}
+
+  .parent {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .image1 {
+    position: relative;
+    top: 0;
+    left: 0;
+    
+  }
+  .image2 {
+    position: absolute;
+    top: 10px;
+    width: 15px;
+    height: 15px;
+    left: 10px;
+  }
